@@ -1,21 +1,176 @@
 ! xterm ----------------------------------------------------------------------
-!XTerm*faceName:           Input Mono:style=Regular:size=18
-.*faceName:            Source Code Pro:style=Regular:size=12
+!XTerm*faceName:           Input Mono Narrow:style=Regular:size=14
+!XTerm*font: -*-terminus-medium-*-*-*-24-*-*-*-*-*-iso10646-1
+!XTerm*faceName:           Input Mono:style=Regular:size=14
+
+!!!!!!!!!!!!!!!!!!!!!!!!!! FAVORITE
+!XTerm*faceName:           Fira Mono:style=Regular
+*faceName:           IBM Plex Mono:style=Regular
+!XTerm*faceName:           Dina:style=Regular:size=14
+!XTerm*faceName:           Iosevka:style=Regular:size=14
+!XTerm*faceName:           Misc Tamsyn:style=Regular:size=22
+!.*renderFont: true
+!XTerm*faceName:Terminus*
+!XTerm*font:  -*-terminus-bold-*-*-*-20-*-*-*-*-*-*-*
+*faceSize:12 
+!!!!!!!!!!!!!!!!!!!!!!!!!! END OF FAVORITE
+
+#include "/home/adrien/github/dotfiles/themes/papercolor"
+!#include "/home/adrien/github/dotfiles/themes/4bit1"
+!#include "/home/adrien/github/dotfiles/themes/onedark"
+!#include "/home/adrien/github/iTerm2-Color-Schemes/Xresources/Material"
+!#include "/home/adrien/github/Xresources-themes/light/iterm-ayu_light.Xresources"
+
+!iTerm themes I like
+! seashells
+! spacedust
+! 
+!! SPLEEN FONT
+!XTerm*faceName: spleen:pixelsize=18:antialias=true
+!
+!from Croscore package:
+!.*faceName:            Cousine:style=Regular:size=14
+!.*faceName:            xos4 Terminus:style=Regular:size=14
+!from adobe-source-code-pro-fonts
+!.*faceName:            Input
+!.*faceName:            Source Code Pro:style=Regular:size=14
 !XTerm*veryBoldColors: 6
 !Xterm*dynamicColors: false
 !xterm*font: terminus-12
 !xterm*boldFont: terminus-12
 !XTerm.termName: xterm-256color
 !XTerm*utf8: 1 
-!XTerm*cursorColor: green
-!XTerm*cursorBlink: true
+XTerm*cursorColor: #D7005F
+XTerm*cursorBlink: true
+XTerm*VT100*italicULMode: on
 .*scrollBar: false
 !xterm*scrollBar: false
 !xterm*scrollBar: false
 
+!#include "/home/adrien/github/dotfiles/themes/apprentice"
 
 !#include "/home/adrien/.config/perso/colours/google-material"
 !#include "/home/adrien/.config/perso/colours/lucario"
 !#include "/home/adrien/.config/perso/colours/vintage3"
 !#include "/home/adrien/.config/perso/colours/molokai"
-#include "/home/adrien/github/dotfiles/themes/dracula"
+!#include "/home/adrien/github/Xresources-themes/Xresources-themes/base16-irblack.Xresources"
+!*Background: #282828
+!*Foreground: #33FF33
+!*HiBackColor: green
+!*HiForeColor: black
+!!
+!!
+!!
+!! default system font
+!!*font: -*-serenetypewriter-medium-r-*-*-12-*-*-*-*-*-iso10646-1
+!!*font: -misc-*-medium-r-normal-*-14-*-*-*-*-*-iso10646-1
+!!font: -*-terminus-medium-r-*-*-*-*-*-*-*-*-iso10646-1
+!*font: -*-clean-*-r-*-*-*-*-*-*-*-*-iso10646-1
+!
+!!XTerm*font: -*-fixed-medium-r-*-*-13-*-*-*-*-*-iso10646-1
+!XTerm*font: -*-serenetypewriter-medium-r-*-*-12-*-*-*-*-*-iso10646-1
+!!XTerm*font: -misc-*-medium-r-normal-*-14-*-*-*-*-*-iso10646-1
+!!XTerm*font: -*-terminus-medium-r-*-*-*-*-*-*-*-*-iso10646-1
+!!XTerm*font: -*-terminus-medium-r-*-*-16-*-*-*-*-*-iso10646-*
+!XTerm*font: -*-terminus-medium-*-*-*-18-*-*-*-*-*-iso10646-1
+!!XTerm*font:  -*-terminus-medium-*-*-*-*-*-*-*-*-*-iso10646-1
+!!Xterm*font: -*-clean-*-*-*-*-*-*-*-*-*-*-iso10646-1
+!XTerm*utf8: 1
+!XTerm*WideChars: 0
+!XTerm*background: Black
+!XTerm*foreground: gray90
+!XTerm*geometry: 80x25
+!
+!! Colour for the bold attribute
+!XTerm*VT100*colorBDMode: on
+!XTerm*VT100*colorBD: purple
+!
+!! Colour for underline attribute
+!XTerm*VT100*colorULMode: on
+!XTerm*VT100*italicULMode: on
+!XTerm*VT100*underLine: on
+!XTerm*VT100*colorUL: red
+!XTerm*VT100*numLock: false
+!! Turn on colour mode in your xterms
+!XTerm.VT100*dynamicColors: On
+!
+!! Number of lines of scrollback to save
+!XTerm*saveLines: 4096
+!
+!! Do not clear the screen after the program exits
+!XTerm*VT100*titeInhibit: true
+!
+!! Blink instead of beeping
+!*visualBell: True
+!
+!! Make Delete act as C-h
+!!rxvt.keysym.BackSpace: ^H
+
+XTerm*eightBitInput: false
+
+XTerm*modifyCursorKeys: 1
+
+XTerm*modifyFunctionKeys: 1
+
+!urxvt
+!! -- Fonts -- !
+URxvt.font: xft:IBM Plex Mono:style=Regular:pixelsize=18:antialias=true:hinting=full,\
+            xft:Noto Color Emoji,\
+            xft:Symbola:pixelsize=18:antialias=true:hinting=full
+URxvt.boldFont: xft:IBM Plex Mono:style=Bold:pixelsize=18:antialias=true:hinting=full,\
+                xft:Noto Color Emoji,\
+                xft:Symbola:pixelsize=18:antialias=true:hinting=full
+URxvt.italicFont: xft:IBM Plex Mono:style=Italic:pixelsize=18:antialias=true:hinting=full,\
+                xft:Noto Color Emoji,\
+                xft:Symbola:pixelsize=18:antialias=true:hinting=full
+URxvt.boldItalicFont: xft:IBM Plex Mono:style=Bold Italic:pixelsize=18:antialias=true:hinting=full,\
+                xft:Noto Color Emoji,\
+                xft:Symbola:pixelsize=18:antialias=true:hinting=full
+URxvt.letterSpace: 1
+
+!!*faceSize:              10
+*bellIsUrgent:          true
+
+!! scroll
+!! do not scroll with output
+URxvt*scrollTtyOutput:      false
+!! scroll in relation to buffer (with mouse scroll or Shift+Page Up)
+URxvt*scrollWithBuffer:     true
+!! scroll back to the bottom on keypress
+URxvt*scrollTtyKeypress:    true
+
+!! scrollback buffer
+URxvt.secondaryScreen:  1
+URxvt.secondaryScroll:  0
+URxvt.secondaryWheel:   1
+
+!! scrollbar
+*scrollBar:             false
+
+URxvt*termName:         rxvt
+
+!! clickable urls
+URxvt.perl-ext-common:      default,matcher,selection-to-clipboard,clipboard
+URxvt.url-launcher:         /usr/bin/xdg-open
+URxvt.matcher.button:       1
+URxvt.url-select.underline: true
+
+!! copy paste
+URxvt.clipboard.autocopy:   true
+URxvt.clipboard.copycmd:    xclip -i -selection clipboard
+URxvt.clipboard.pastecmd:   xclip -o -selection clipboard
+
+!! disable default bindings for Control-Shift
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+
+!! Control-Shift-C for copy
+URxvt.keysym.C-C: perl:clipboard:copy
+URxvt.keysym.C-V: perl:clipboard:paste
+URxvt.keysym.Control-v: perl:clipboard:paste
+
+!! get option over to work
+URxvt.keysym.M-Left:        \033[1;5D
+URxvt.keysym.M-Right:       \033[1;5C
+URxvt.keysym.Control-Left:  \033[1;5D
+URxvt.keysym.Control-Right: \033[1;5C

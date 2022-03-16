@@ -6,8 +6,8 @@ xinput set-prop "/dev/wsmouse" "WS Pointer Wheel Emulation Button" 2
 xinput set-prop "/dev/wsmouse" "WS Pointer Wheel Emulation Axes" 6 7 4 5
 xset -b
 slstatus &
-#spectrwm
-dwm
+spectrwm
+#dwm
 #cwm
 #source ~/.bashrc
 
