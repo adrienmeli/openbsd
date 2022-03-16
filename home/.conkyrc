@@ -1,0 +1,9 @@
+out_to_console yes
+out_to_x no
+background no
+update_interval 1
+total_run_times 0
+use_spacer none
+
+TEXT
+CPU: ${cpu}% | RAM: $memperc%-$mem | HDD: ${fs_free /}-${fs_free /home} | ↓${downspeed iwm0}/s ↑${upspeed enp57s0u1u2}/s | ↓${downspeed wlp4s0}/s ↑${upspeed wlp4s0}/s (ifconfig iwm0 | grep join | awk '{print $3}') | ${exec curl -s www.icanhazip.com} | BAT: ${apm_battery_life} | VOL: ${exec mixerctl outputs.master | cut -d "=" -f2 | cut -d "," -f1} | ${time %b %d - %R}

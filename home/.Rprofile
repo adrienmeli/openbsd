@@ -1,0 +1,63 @@
+
+# Lines added by the Vim-R-plugin command :RpluginConfig (2015-Jan-18 18:16):
+Sys.setenv("plotly_username"="adrienmeli")
+Sys.setenv("plotly_api_key"="cFIAzQXI9uVtISeeGOKl")
+if(getwd()!="/home/adrien"){
+	if(interactive()){
+		if(nchar(Sys.getenv("DISPLAY")) > 1)
+			options(editor = 'gvim -f -c "set ft=r"')
+		else
+			options(editor = 'vim -c "set ft=r"')
+# See ?setOutputColors256 to know how to customize R output colors
+				.libPaths("/home/adrien/R/x86_64-pc-linux-gnu-library/3.5/")
+        library(colorout)
+# library(setwidth)
+#options(vimcom.verbose = 1) # optional
+#library(vimcom)
+#     library(slidify)
+#                 library(knitr)
+#                 library(rmarkdown)
+#                 library(rCharts)
+#                 library(rattle)
+				#library(C50)
+				#library(rpart)
+				#library(party)
+				#library(rpart.plot)
+				#library(RColorBrewer)
+				#library(scatterplot3d)
+				#library(lme4)
+				#library(lattice)
+				library(phonR)
+				library(rmarkdown)
+				library(phonTools)
+				#library(xtable)
+				#library(geometry)
+				library(plyr)
+				library(ggplot2)
+				library(Cairo)
+				library(tikzDevice)
+				#library(revealjs)
+				library(extrafont)
+				library(data.table)
+				library(grDevices)
+				#library(np)
+				#library(MASS)
+				#library(tidyverse)
+				#library(htmlwidgets)
+				#library(DiagrammeR)
+				#library(rCharts)
+				#library(threejs)
+				#library(crosstalk)
+				#library(d3scatter)
+				#library(DT)
+				#library(servr)
+				#library(metricsgraphics)
+				#library(plotly)
+				loadfonts()
+# See R documentation on Vim buffer even if asking for help in R Console:
+#if(Sys.getenv("VIM_PANE") != "")
+#    options(pager = vim.pager)
+				CairoFonts(regular="Doulos Sil:style=Regular", bold="Doulos Sil:style=Bold", italic="Doulos Sil:style=Italic", bolditalic="Doulos Sil:style=Bold Italic,BoldItalic", symbol="Symbol") 	
+	}
+}
+

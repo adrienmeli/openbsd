@@ -1,0 +1,21 @@
+! xterm ----------------------------------------------------------------------
+!XTerm*faceName:           Input Mono:style=Regular:size=18
+.*faceName:            Source Code Pro:style=Regular:size=12
+!XTerm*veryBoldColors: 6
+!Xterm*dynamicColors: false
+!xterm*font: terminus-12
+!xterm*boldFont: terminus-12
+!XTerm.termName: xterm-256color
+!XTerm*utf8: 1 
+!XTerm*cursorColor: green
+!XTerm*cursorBlink: true
+.*scrollBar: false
+!xterm*scrollBar: false
+!xterm*scrollBar: false
+
+
+!#include "/home/adrien/.config/perso/colours/google-material"
+!#include "/home/adrien/.config/perso/colours/lucario"
+!#include "/home/adrien/.config/perso/colours/vintage3"
+!#include "/home/adrien/.config/perso/colours/molokai"
+#include "/home/adrien/github/dotfiles/themes/dracula"
